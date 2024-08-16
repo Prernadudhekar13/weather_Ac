@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+    <section class="container">
+        <!-- Input bar -->
+        <div class="weather_header">
+            <form class=" weather_search">
+                <i class='fa fa-search search'  class="search"></i>
+                <input type="text" id="cityid" placeholder="search your city..."/>
+            </form>
+        </div>
+        <!-- weather main data -->
+         <div class="weather_body">  
+            <h1 class="weather_city"></h1>
+            <p class="weather_date_time"></p>
+
+            <div class="weather_data">
+                <p class="weather_forecast"></p>
+                <div class="weather_icon"></div>
+            </div>
+
+            <p class="weather_temperature"></p>
+            <div class="weather_minmax">
+                <p class="weather_min"></p>
+                <p class="weather_max"></p>
+            </div>
+         </div>
+
+         <!-- weather etra data -->
+          <section class="weather_info">
+            <div class="weather_card">
+                <i class="fa-solid fa-droplet"></i>
+                <div>
+                    <p>Feels Like</p>
+                    <p class="weather_feelslike"></p>
+                </div>
+            </div>
+
+            <div class="weather_card">
+                <i class="fa-solid fa-droplet"></i>
+                <div>
+                    <p>Humidity</p>
+                    <p class="weather_humidity"></p>
+                </div>
+            </div>
+
+            <div class="weather_card">
+                <i class="fa-solid fa-wind"></i>
+                <div>
+                    <p>Wind</p>
+                    <p class="weather_wind"></p>
+                </div>
+            </div>
+
+            <div class="weather_card">
+                <i class="fa-solid fa-gauge-high"></i>
+                <div>
+                    <p>Pressure</p>
+                    <p class="weather_pressure"></p>
+                </div>
+            </div>
+          </section>
+        
+    </section>
+
+    <script src="index.js">
+
+    </script>
+</body>
+</html>
