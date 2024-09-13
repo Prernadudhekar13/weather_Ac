@@ -74,8 +74,8 @@ const getWeatherData = async (city) =>{
        cityName.innerHTML = `${name} , ${getCountryName(sys.country)}`;
        dateTime.innerHTML = getDateTime(dt);
         w_temperature.innerHTML =`${main.temp}&#176`;
-        w_minTerm.innerHTML = `Min: ${main.temp_min.toFixed()}&#176`;
-        w_maxTerm.innerHTML = `Max: ${main.temp_max.toFixed()}&#176`;
+        // w_minTerm.innerHTML = `Min: ${main.temp_min.toFixed()}&#176`;
+        // w_maxTerm.innerHTML = `Max: ${main.temp_max.toFixed()}&#176`;
         w_feelslike.innerHTML = `${main.feels_like.toFixed()}&#176`;
         w_humidity.innerHTML = `${main.humidity}%`; 
         w_wind.innerHTML= `${wind.speed}m/s`;
